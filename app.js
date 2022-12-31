@@ -4,7 +4,7 @@ import { createElement, setValue } from "./functions/dom.js";
 import { getStars } from "./functions/stargen.js";
 import { numberOfStars } from "./data/stargen.js";
 
-const version = "1.1.0";
+const version = "1.1.1";
 
 function generateSystem() {
   const starSys = rollTable(numberOfStars);

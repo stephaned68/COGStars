@@ -7,7 +7,7 @@ export const planetTypes = {
 
 export const numberOfPlanets = {
 
-  "nb": {
+  "bd": {
     max: 4,
     types: [
       {
@@ -219,7 +219,7 @@ export const numberOfPlanets = {
     ]
   },
 
-  "nbnp" : {
+  "wd" : {
     max: 2,
     types: [
       {
