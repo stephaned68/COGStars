@@ -84,6 +84,8 @@ function getJovian(oddities = 1) {
 
 }
 
+export { getJovian };
+
 function getAsteroids() {
 
   return rollTable(pgdata.asteroidTypes);

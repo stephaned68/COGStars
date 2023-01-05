@@ -1,5 +1,6 @@
 function roll(max) {
-  return 1 + Math.floor(Math.random() * max);
+  if (window.rando) return rando(1, max);
+  else return 1 + Math.floor(Math.random() * max);
 }
 
 const roller = function (options) {

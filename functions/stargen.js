@@ -122,6 +122,8 @@ function renderPlanet(planet) {
   return output;
 }
 
+export { renderPlanet };
+
 function renderStar(star) {
   let output = "";
 
