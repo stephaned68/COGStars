@@ -203,6 +203,7 @@ function getStars(names, types, stars) {
     star.name = names.shift();
     output += renderStar(star) + "<br>";
     if (types == 1 && stars == 2) {
+      star.oddities = getOddities(oddities, starOddities);
       star.planets = [];
       star = getPlanets(star);
       star.name = names.shift();

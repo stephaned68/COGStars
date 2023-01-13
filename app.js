@@ -5,7 +5,7 @@ import { getStars, renderPlanet } from "./functions/stargen.js";
 import { numberOfStars, starNames } from "./data/stargen.js";
 import { getJovian } from "./functions/planetgen.js";
 
-const version = "1.3.0";
+const version = "1.3.1";
 
 function generateSystem() {
   const starSys = rollTable(numberOfStars);
